@@ -3,7 +3,10 @@
 //
 
 #include "LogFile.h"
-#include "FileUtil.h"
+#include <unistd.h>
+#include <time.h>
+
+static const int kRollPerSeconds_ = 1000;
 
 LogFile::LogFile(const string &filename,
                  off_t rollSize,
@@ -31,15 +34,36 @@ void LogFile::flush() {
     file_->flush();
 }
 
-void LogFile::rollFile() {
+bool LogFile::rollFile() {
+    time_t now = 0;
+    string filename = getLogFileName(basename_, now);
+    time_t start = now / kRollPerSeconds_ * kRollPerSeconds_;
 
+    if(now > lastRoll_){
+        lastRoll_ = now;
+        lastFlush_ = now;
+        startOfPeriod_ = start;
+        file_.reset(new FileUtil::AppendFile(filename));
+        return true;
+    }
+    return false;
 }
 
-const string getLogFileName(const string &basename, time_t time) {
+const string getLogFileName(const string &basename, time_t *now) {
     string filename = string();
     filename.reserve(basename.size() + 64);
     filename = basename;
-
+    struct tm tm;
+    char timebuf[32];
+    *now = time(nullptr);
+    gmtime_r(now, &tm);
+    strftime(timebuf, sizeof(timebuf), "%Y%m%d-%H:%M:%S.", &tm);
+    filename += timebuf;
+    char pidbuf[32];
+    snprintf(pidbuf, sizeof(pidbuf), "%d", ::getpid());
+    filename += pidbuf;
+    filename += ".log";
+    return filename;
 }
 
 void LogFile::append_unlock(const char *logline, int len) {

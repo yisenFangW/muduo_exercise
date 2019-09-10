@@ -25,24 +25,25 @@ class FileUtil {
         const char *str_;
     };
 
+    public:
     class AppendFile {
     public:
         explicit AppendFile(StringArg filename);
 
         ~AppendFile();
 
-        void append(const char* logline, size_t len);
+        void append(const char *logline, size_t len);
 
         void flush();
 
-        off_t writtenBytes(){return writtenBytes_;}
+        off_t writtenBytes() { return writtenBytes_; }
 
     private:
-        size_t write(const char* logline, size_t len);
+        size_t write(const char *logline, size_t len);
 
         FILE *fp_;
 
-        char buffer_[64*1024];
+        char buffer_[64 * 1024];
 
         off_t writtenBytes_;
     };

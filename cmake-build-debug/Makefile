@@ -48,10 +48,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wefang/CLionProjects/client
+CMAKE_SOURCE_DIR = /Users/wefang/CLionProjects/muduo_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wefang/CLionProjects/client/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -80,9 +80,9 @@ edit_cache/fast: edit_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles /Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles/progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles/progress.marks
 	$(MAKE) -f CMakeFiles/Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -285,6 +285,33 @@ Logging.cpp.s:
 	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Logging.cpp.s
 .PHONY : Logging.cpp.s
 
+Thread.o: Thread.cpp.o
+
+.PHONY : Thread.o
+
+# target to build an object file
+Thread.cpp.o:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Thread.cpp.o
+.PHONY : Thread.cpp.o
+
+Thread.i: Thread.cpp.i
+
+.PHONY : Thread.i
+
+# target to preprocess a source file
+Thread.cpp.i:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Thread.cpp.i
+.PHONY : Thread.cpp.i
+
+Thread.s: Thread.cpp.s
+
+.PHONY : Thread.s
+
+# target to generate assembly for a file
+Thread.cpp.s:
+	$(MAKE) -f CMakeFiles/client.dir/build.make CMakeFiles/client.dir/Thread.cpp.s
+.PHONY : Thread.cpp.s
+
 Timer.o: Timer.cpp.o
 
 .PHONY : Timer.o
@@ -447,6 +474,9 @@ help:
 	@echo "... Logging.o"
 	@echo "... Logging.i"
 	@echo "... Logging.s"
+	@echo "... Thread.o"
+	@echo "... Thread.i"
+	@echo "... Thread.s"
 	@echo "... Timer.o"
 	@echo "... Timer.i"
 	@echo "... Timer.s"

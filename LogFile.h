@@ -10,16 +10,11 @@
 #include <iostream>
 #include <string>
 #include "MutexLockGuard.h"
-//#include "FileUtil.h"
+#include "FileUtil.h"
 #include <memory>
 #include <Mutex>
 
 using std::string;
-
-
-namespace FileUtil {
-    class AppendFile;
-}
 
 class LogFile {
 public:
@@ -35,7 +30,7 @@ public:
 
     void flush();
 
-    void rollFile();
+     bool rollFile();
 
 private:
     void append_unlock(const char *logline, int len);

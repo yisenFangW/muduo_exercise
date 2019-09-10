@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/client.dir/LogStream.cpp.o"
   "CMakeFiles/client.dir/LogFile.cpp.o"
   "CMakeFiles/client.dir/FileUtil.cpp.o"
+  "CMakeFiles/client.dir/Thread.cpp.o"
   "client.pdb"
   "client"
 )

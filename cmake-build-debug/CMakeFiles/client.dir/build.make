@@ -43,10 +43,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/wefang/CLionProjects/client
+CMAKE_SOURCE_DIR = /Users/wefang/CLionProjects/muduo_exercise
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/wefang/CLionProjects/client/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/client.dir/depend.make
@@ -59,146 +59,159 @@ include CMakeFiles/client.dir/flags.make
 
 CMakeFiles/client.dir/main.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/main.cpp.o -c /Users/wefang/CLionProjects/client/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/client.dir/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/main.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/main.cpp
 
 CMakeFiles/client.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/main.cpp > CMakeFiles/client.dir/main.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/main.cpp > CMakeFiles/client.dir/main.cpp.i
 
 CMakeFiles/client.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/main.cpp -o CMakeFiles/client.dir/main.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/main.cpp -o CMakeFiles/client.dir/main.cpp.s
 
 CMakeFiles/client.dir/client.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/client.cpp.o: ../client.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/client.cpp.o -c /Users/wefang/CLionProjects/client/client.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/client.dir/client.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/client.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/client.cpp
 
 CMakeFiles/client.dir/client.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/client.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/client.cpp > CMakeFiles/client.dir/client.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/client.cpp > CMakeFiles/client.dir/client.cpp.i
 
 CMakeFiles/client.dir/client.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/client.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/client.cpp -o CMakeFiles/client.dir/client.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/client.cpp -o CMakeFiles/client.dir/client.cpp.s
 
 CMakeFiles/client.dir/Timestamp.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/Timestamp.cpp.o: ../Timestamp.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/Timestamp.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Timestamp.cpp.o -c /Users/wefang/CLionProjects/client/Timestamp.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/client.dir/Timestamp.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Timestamp.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/Timestamp.cpp
 
 CMakeFiles/client.dir/Timestamp.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Timestamp.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/Timestamp.cpp > CMakeFiles/client.dir/Timestamp.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/Timestamp.cpp > CMakeFiles/client.dir/Timestamp.cpp.i
 
 CMakeFiles/client.dir/Timestamp.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Timestamp.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/Timestamp.cpp -o CMakeFiles/client.dir/Timestamp.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/Timestamp.cpp -o CMakeFiles/client.dir/Timestamp.cpp.s
 
 CMakeFiles/client.dir/Timer.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/Timer.cpp.o: ../Timer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/Timer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Timer.cpp.o -c /Users/wefang/CLionProjects/client/Timer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/client.dir/Timer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Timer.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/Timer.cpp
 
 CMakeFiles/client.dir/Timer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Timer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/Timer.cpp > CMakeFiles/client.dir/Timer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/Timer.cpp > CMakeFiles/client.dir/Timer.cpp.i
 
 CMakeFiles/client.dir/Timer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Timer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/Timer.cpp -o CMakeFiles/client.dir/Timer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/Timer.cpp -o CMakeFiles/client.dir/Timer.cpp.s
 
 CMakeFiles/client.dir/TimerQueue.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/TimerQueue.cpp.o: ../TimerQueue.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/TimerQueue.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/TimerQueue.cpp.o -c /Users/wefang/CLionProjects/client/TimerQueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/client.dir/TimerQueue.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/TimerQueue.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/TimerQueue.cpp
 
 CMakeFiles/client.dir/TimerQueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/TimerQueue.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/TimerQueue.cpp > CMakeFiles/client.dir/TimerQueue.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/TimerQueue.cpp > CMakeFiles/client.dir/TimerQueue.cpp.i
 
 CMakeFiles/client.dir/TimerQueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/TimerQueue.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/TimerQueue.cpp -o CMakeFiles/client.dir/TimerQueue.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/TimerQueue.cpp -o CMakeFiles/client.dir/TimerQueue.cpp.s
 
 CMakeFiles/client.dir/Buffer.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/Buffer.cpp.o: ../Buffer.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/client.dir/Buffer.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Buffer.cpp.o -c /Users/wefang/CLionProjects/client/Buffer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/client.dir/Buffer.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Buffer.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/Buffer.cpp
 
 CMakeFiles/client.dir/Buffer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Buffer.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/Buffer.cpp > CMakeFiles/client.dir/Buffer.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/Buffer.cpp > CMakeFiles/client.dir/Buffer.cpp.i
 
 CMakeFiles/client.dir/Buffer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Buffer.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/Buffer.cpp -o CMakeFiles/client.dir/Buffer.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/Buffer.cpp -o CMakeFiles/client.dir/Buffer.cpp.s
 
 CMakeFiles/client.dir/Channel.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/Channel.cpp.o: ../Channel.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/client.dir/Channel.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Channel.cpp.o -c /Users/wefang/CLionProjects/client/Channel.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/client.dir/Channel.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Channel.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/Channel.cpp
 
 CMakeFiles/client.dir/Channel.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Channel.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/Channel.cpp > CMakeFiles/client.dir/Channel.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/Channel.cpp > CMakeFiles/client.dir/Channel.cpp.i
 
 CMakeFiles/client.dir/Channel.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Channel.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/Channel.cpp -o CMakeFiles/client.dir/Channel.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/Channel.cpp -o CMakeFiles/client.dir/Channel.cpp.s
 
 CMakeFiles/client.dir/Logging.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/Logging.cpp.o: ../Logging.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/client.dir/Logging.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Logging.cpp.o -c /Users/wefang/CLionProjects/client/Logging.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object CMakeFiles/client.dir/Logging.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Logging.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/Logging.cpp
 
 CMakeFiles/client.dir/Logging.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Logging.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/Logging.cpp > CMakeFiles/client.dir/Logging.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/Logging.cpp > CMakeFiles/client.dir/Logging.cpp.i
 
 CMakeFiles/client.dir/Logging.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Logging.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/Logging.cpp -o CMakeFiles/client.dir/Logging.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/Logging.cpp -o CMakeFiles/client.dir/Logging.cpp.s
 
 CMakeFiles/client.dir/LogStream.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/LogStream.cpp.o: ../LogStream.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/client.dir/LogStream.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/LogStream.cpp.o -c /Users/wefang/CLionProjects/client/LogStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object CMakeFiles/client.dir/LogStream.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/LogStream.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/LogStream.cpp
 
 CMakeFiles/client.dir/LogStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/LogStream.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/LogStream.cpp > CMakeFiles/client.dir/LogStream.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/LogStream.cpp > CMakeFiles/client.dir/LogStream.cpp.i
 
 CMakeFiles/client.dir/LogStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/LogStream.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/LogStream.cpp -o CMakeFiles/client.dir/LogStream.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/LogStream.cpp -o CMakeFiles/client.dir/LogStream.cpp.s
 
 CMakeFiles/client.dir/LogFile.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/LogFile.cpp.o: ../LogFile.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/client.dir/LogFile.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/LogFile.cpp.o -c /Users/wefang/CLionProjects/client/LogFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object CMakeFiles/client.dir/LogFile.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/LogFile.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/LogFile.cpp
 
 CMakeFiles/client.dir/LogFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/LogFile.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/LogFile.cpp > CMakeFiles/client.dir/LogFile.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/LogFile.cpp > CMakeFiles/client.dir/LogFile.cpp.i
 
 CMakeFiles/client.dir/LogFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/LogFile.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/LogFile.cpp -o CMakeFiles/client.dir/LogFile.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/LogFile.cpp -o CMakeFiles/client.dir/LogFile.cpp.s
 
 CMakeFiles/client.dir/FileUtil.cpp.o: CMakeFiles/client.dir/flags.make
 CMakeFiles/client.dir/FileUtil.cpp.o: ../FileUtil.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/client.dir/FileUtil.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/FileUtil.cpp.o -c /Users/wefang/CLionProjects/client/FileUtil.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object CMakeFiles/client.dir/FileUtil.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/FileUtil.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/FileUtil.cpp
 
 CMakeFiles/client.dir/FileUtil.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/FileUtil.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/client/FileUtil.cpp > CMakeFiles/client.dir/FileUtil.cpp.i
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/FileUtil.cpp > CMakeFiles/client.dir/FileUtil.cpp.i
 
 CMakeFiles/client.dir/FileUtil.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/FileUtil.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/client/FileUtil.cpp -o CMakeFiles/client.dir/FileUtil.cpp.s
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/FileUtil.cpp -o CMakeFiles/client.dir/FileUtil.cpp.s
+
+CMakeFiles/client.dir/Thread.cpp.o: CMakeFiles/client.dir/flags.make
+CMakeFiles/client.dir/Thread.cpp.o: ../Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object CMakeFiles/client.dir/Thread.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/client.dir/Thread.cpp.o -c /Users/wefang/CLionProjects/muduo_exercise/Thread.cpp
+
+CMakeFiles/client.dir/Thread.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/client.dir/Thread.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/wefang/CLionProjects/muduo_exercise/Thread.cpp > CMakeFiles/client.dir/Thread.cpp.i
+
+CMakeFiles/client.dir/Thread.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/client.dir/Thread.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/wefang/CLionProjects/muduo_exercise/Thread.cpp -o CMakeFiles/client.dir/Thread.cpp.s
 
 # Object files for target client
 client_OBJECTS = \
@@ -212,7 +225,8 @@ client_OBJECTS = \
 "CMakeFiles/client.dir/Logging.cpp.o" \
 "CMakeFiles/client.dir/LogStream.cpp.o" \
 "CMakeFiles/client.dir/LogFile.cpp.o" \
-"CMakeFiles/client.dir/FileUtil.cpp.o"
+"CMakeFiles/client.dir/FileUtil.cpp.o" \
+"CMakeFiles/client.dir/Thread.cpp.o"
 
 # External object files for target client
 client_EXTERNAL_OBJECTS =
@@ -228,9 +242,10 @@ client: CMakeFiles/client.dir/Logging.cpp.o
 client: CMakeFiles/client.dir/LogStream.cpp.o
 client: CMakeFiles/client.dir/LogFile.cpp.o
 client: CMakeFiles/client.dir/FileUtil.cpp.o
+client: CMakeFiles/client.dir/Thread.cpp.o
 client: CMakeFiles/client.dir/build.make
 client: CMakeFiles/client.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Linking CXX executable client"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Linking CXX executable client"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/client.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -243,6 +258,6 @@ CMakeFiles/client.dir/clean:
 .PHONY : CMakeFiles/client.dir/clean
 
 CMakeFiles/client.dir/depend:
-	cd /Users/wefang/CLionProjects/client/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wefang/CLionProjects/client /Users/wefang/CLionProjects/client /Users/wefang/CLionProjects/client/cmake-build-debug /Users/wefang/CLionProjects/client/cmake-build-debug /Users/wefang/CLionProjects/client/cmake-build-debug/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/wefang/CLionProjects/muduo_exercise /Users/wefang/CLionProjects/muduo_exercise /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug /Users/wefang/CLionProjects/muduo_exercise/cmake-build-debug/CMakeFiles/client.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/client.dir/depend
 
